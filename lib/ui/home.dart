@@ -20,7 +20,7 @@ class Home extends StatelessWidget {
               child: new IconButton(
             icon: new Icon(Icons.arrow_drop_down_circle),
             onPressed: () => Scaffold.of(context).showSnackBar(new SnackBar(
-                  content: new Text("Climate Change is Real"),
+                  content: new Text("Climate Change is Real!"),
                   backgroundColor: Theme.of(context).accentColor,
                 )),
           ));
